@@ -1,1 +1,3 @@
-### Teste em javascript de um backend simples integrando uma api externa.
+## Javascript Backend
+
+Backend feito com javascript integrando uma api externa.

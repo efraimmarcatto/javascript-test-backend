@@ -20,5 +20,8 @@ app.use(cors({ origin: '*' }))
 app.use('/api/', usersRoute)
 app.use('/api/auth', authRoute)
 app.use('/api', starwarsRoute)
+app.get('/', (req, res) => {
+    res.json({ message: 'API ONLINE' })
+})
 
 app.listen(process.env.PORT || 5000, () => console.log('Server online'))
